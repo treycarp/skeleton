@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TestView.swift
 //  Skeleton
 //
 //  Created by Trey Carpenter Iii on 1/10/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TestView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TestView()
 }
