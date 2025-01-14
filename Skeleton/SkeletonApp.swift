@@ -11,7 +11,18 @@ import SwiftUI
 struct SkeletonApp: App {
     var body: some Scene {
         WindowGroup {
-            TestView()
+            TabView {
+                TestView()
+                    .tabItem {
+                        Label("Test", systemImage: "person.fill.questionmark")
+                    }
+                
+                WeatherView()
+                    .tabItem {
+                        Label("Weather", systemImage: "cloud.drizzle")
+                    }
+            }
+            
         }
     }
 }
