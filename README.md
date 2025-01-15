@@ -3,7 +3,7 @@
 We will create a **Random Number Generator**.
 
 1. Create a new branch
-2. Create SwiftUI View
+2. Using the TestView SwiftUI View
    - Output For Displaying Text
    - Single Text Field
    - Single Button
